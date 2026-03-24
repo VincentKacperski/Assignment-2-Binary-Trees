@@ -18,6 +18,21 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="insert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="count.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="height.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

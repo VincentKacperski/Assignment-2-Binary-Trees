@@ -123,7 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="count.c" />
+    <ClCompile Include="height.c" />
+    <ClCompile Include="insert.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="print.c" />
+    <ClCompile Include="search.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
