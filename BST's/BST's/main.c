@@ -9,6 +9,10 @@ int main() {
 
 	//Decleration
 	int choice = 1; //Add 1 to enter the menu while loop
+	char keydata = '0';
+	char array[26] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+	struct Node* rootNode = NULL;
+	struct Node* nodePtr = NULL;
 
 	while (choice > 0 && choice < 5) {
 
@@ -27,6 +31,12 @@ int main() {
 		switch (choice) {
 
 			case 1: {
+
+				//Insert a node in the tree
+				keydata = array[(rand() % 20) + 1]; //Assign a random character
+				nodePtr = insertNodes(nodePtr, keydata); //Keep track of the root node
+				//printf("rootNode Status After Insert: %p\n", rootNode);
+				break;
 
 			} case 2: {
 
