@@ -40,6 +40,14 @@ int main() {
 
 			} case 2: {
 
+				//Search for a node in the tree
+				printf("Enter a character to search: ");
+				scanf_s(" %c", &keydata, 1);
+				printf("keydata: %c\n", keydata);
+				keydata = searchNodes(rootNode, keydata);
+				printf("The searched node character value is: %c\n", keydata);
+				break;
+
 			} case 3: {
 
 			} case 4: {
