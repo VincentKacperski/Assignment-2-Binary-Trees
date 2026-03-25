@@ -14,6 +14,12 @@ int main() {
 	struct Node* rootNode = NULL;
 	struct Node* nodePtr = NULL;
 
+	//Create the root node, and store a refrence
+	rootNode = insertNodes(rootNode, array[rand() % 20]);
+	nodePtr = rootNode; //Assign the root node to ptr for traversal and searching
+	printf("rootNode1: %p\n", nodePtr);
+	printf("Creating a refrence to the root node!\n");
+
 	while (choice > 0 && choice < 5) {
 
 		//Main menu
@@ -35,17 +41,15 @@ int main() {
 				//Insert a node in the tree
 				keydata = array[(rand() % 20) + 1]; //Assign a random character
 				nodePtr = insertNodes(nodePtr, keydata); //Keep track of the root node
-				//printf("rootNode Status After Insert: %p\n", rootNode);
 				break;
 
 			} case 2: {
 
 				//Search for a node in the tree
 				printf("Enter a character to search: ");
-				scanf_s(" %c", &keydata, 1);
-				printf("keydata: %c\n", keydata);
-				keydata = searchNodes(rootNode, keydata);
-				printf("The searched node character value is: %c\n", keydata);
+				scanf_s(" %c", &keydata, 1); //Read in a keky value for the new node
+				keydata = searchNodes(rootNode, keydata); 
+				printf("The searched node character value is: %c\n", keydata); //When found print it's data
 				break;
 
 			} case 3: {
