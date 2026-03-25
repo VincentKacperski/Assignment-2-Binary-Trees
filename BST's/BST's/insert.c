@@ -35,8 +35,7 @@ struct Node* insertNodes(struct Node* ptr, char data) {
 		if (data < ptr->data) {
 			ptr->left = insertNodes(ptr->left, data); //Assign the new node to the left
 			//printf("Created a new node to the left!\n");
-		}
-		else if (data > ptr->data) {
+		} else if (data > ptr->data) {
 			ptr->right = insertNodes(ptr->right, data); //Assign the new node to the right
 		}
 

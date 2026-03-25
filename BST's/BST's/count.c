@@ -10,8 +10,8 @@ int countNodes(struct Node* ptr) {
 	}
 
 	//Count each node
-	int left = countNodes(ptr->left);
-	int right = countNodes(ptr->right);
+	int left = countNodes(ptr->left); //Traverse the left subtree
+	int right = countNodes(ptr->right); //Trverse the right subtree
 
-	return (left + right);
+	return left + right;
 }
