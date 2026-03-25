@@ -55,11 +55,17 @@ int main() {
 			} case 3: {
 
 				//Count all nodes in the tree
-				int total = countNodes(rootNode);
-				printf("Total node cout: %d\n", total);
+				int total = countNodes(rootNode); //recursivley check each node
+				printf("Total node cout: %d\n", total); //Print the total node count
 				break;
 
 			} case 4: {
+
+				//Get the trees heights
+				int height = determineHeight(rootNode);
+				//printDebug(rootNode);
+				printf("The height of the tree is: %d\n", height);
+				break;
 
 			} case 5: {
 
