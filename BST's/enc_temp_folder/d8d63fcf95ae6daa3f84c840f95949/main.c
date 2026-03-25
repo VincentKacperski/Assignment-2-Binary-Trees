@@ -7,7 +7,7 @@
 
 //Refrences for understanding trees
 //https://conestoga.desire2learn.com/d2l/le/content/1521987/viewContent/31930063/View
-//https://conestoga.desire2learn.com/d2l/le/content/1521987/viewContent/31930041/View slide 52
+//https://conestoga.desire2learn.com/d2l/le/content/1521987/viewContent/31930041/View
 //https://www.geeksforgeeks.org/dsa/binary-search-tree-set-1-search-and-insertion/
 //https://www.geeksforgeeks.org/dsa/find-the-maximum-depth-or-height-of-a-tree/
 //https://www.geeksforgeeks.org/dsa/count-number-of-nodes-in-a-complete-binary-tree/
@@ -21,9 +21,6 @@ int main() {
 	char array[26] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
 	struct Node* rootNode = NULL;
 	struct Node* nodePtr = NULL;
-
-	//Get the correct time so that rand work properly
-	srand(time(0));
 
 	//Create the root node, and store a refrence
 	rootNode = insertNodes(rootNode, array[rand() % 26]);
