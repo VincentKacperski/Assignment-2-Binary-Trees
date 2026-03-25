@@ -41,5 +41,5 @@ struct Node* insertNodes(struct Node* ptr, char data) {
 		}
 
 	}
-
+	return ptr;
 }
