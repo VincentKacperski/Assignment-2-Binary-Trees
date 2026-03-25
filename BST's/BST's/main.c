@@ -54,6 +54,11 @@ int main() {
 
 			} case 3: {
 
+				//Count all nodes in the tree
+				int total = countNodes(rootNode);
+				printf("Total node cout: %d\n", total - 1);
+				break;
+
 			} case 4: {
 
 			} case 5: {
