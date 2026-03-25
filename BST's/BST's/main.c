@@ -7,7 +7,7 @@
 
 //Refrences for understanding trees
 //https://conestoga.desire2learn.com/d2l/le/content/1521987/viewContent/31930063/View
-//https://www.geeksforgeeks.org/dsa/find-the-maximum-depth-or-height-of-a-tree/
+//https://www.geeksforgeeks.org/dsa/binary-search-tree-set-1-search-and-insertion/
 //https://www.geeksforgeeks.org/dsa/find-the-maximum-depth-or-height-of-a-tree/
 //https://www.geeksforgeeks.org/dsa/count-number-of-nodes-in-a-complete-binary-tree/
 
