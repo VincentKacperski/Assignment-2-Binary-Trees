@@ -10,7 +10,7 @@ struct Node* insertNodes(struct Node* ptr, char data) {
 	struct Node* newNode;
 
 	if (ptr == NULL) {
-
+		
 		//Assign data to the new node
 		node = malloc(sizeof(struct Node));
 		if (node == NULL) {
