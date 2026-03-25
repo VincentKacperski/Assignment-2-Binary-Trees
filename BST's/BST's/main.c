@@ -69,6 +69,10 @@ int main() {
 
 			} case 5: {
 
+				//Traverse the tree and print all nodes in alphabetical order
+				printTraversal(nodePtr);
+				break;
+
 			} default: {
 	
 			}
