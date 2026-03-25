@@ -11,7 +11,7 @@ int determineHeight(struct Node* ptr) {
 
 	//Get the heights of both the left and right subtrees
 	int leftTreeHeight = determineHeight(ptr->left);
-	int rightTreeHeight = determineHeight(ptr->left);
+	int rightTreeHeight = determineHeight(ptr->right);
 
 	int h = (leftTreeHeight > rightTreeHeight ? leftTreeHeight : rightTreeHeight) + 1;
 	printf("Node %c at %p: height = %d\n", ptr->data, (void*)ptr, h);
